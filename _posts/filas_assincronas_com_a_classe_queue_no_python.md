@@ -2,7 +2,7 @@
 title: "Filas assíncronas com a Classe Queue no Python"
 excerpt_separator: "<!--more-->"
 categories:
-  - Python
+  - Programação
 tags:
   - Paralelismo
   - Python
