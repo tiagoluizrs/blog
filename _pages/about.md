@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /about/
 title: "Sobre Mim"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
