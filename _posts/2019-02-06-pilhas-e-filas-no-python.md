@@ -84,7 +84,7 @@ Uma fila nada mais é do que uma estrutura de armazenamento com políticas de or
 Para inserir elementos, podemos usar o método `append()`, que insere um elemento ao final de uma lista. Para a retirada de elementos, podemos utilizar o método `pop(x)`, que retira e retorna um elemento da posição `x`. Em se tratando de uma fila em que estamos inserindo elementos no final, de qual posição devemos retirar os elementos? Acertou quem pensou “da primeira”. Isso mesmo vamos remover o primeiro elemento utilizando `pop(0)`. Veja:
 
 
-```python
+```console
 >>> fila = [10, 20, 30, 40, 50]
 >>> fila.append(60)  # insere um elemento no final da fila
 >>> print fila
@@ -128,7 +128,7 @@ Tendo a classe acima definida em um arquivo fila.py, poderíamos importar o mód
 
 
 
-```python
+```console
 >>> import fila
 >>> f = fila.Fila()
 >>> f.insere(10)
