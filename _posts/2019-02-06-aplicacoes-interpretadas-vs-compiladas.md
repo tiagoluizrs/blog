@@ -1,6 +1,7 @@
 ---
 title: "Aplicações Interpretadas vs Compiladas"
 excerpt_separator: "<!--more-->"
+date: 2019-01-20 09:00:00
 categories:
   - Programação
 tags:

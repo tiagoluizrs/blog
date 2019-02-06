@@ -1,6 +1,7 @@
 ---
 title: "Paralelismo em Python usando concurrent.futures"
 excerpt_separator: "<!--more-->"
+date: 2018-11-12 09:00:00
 categories:
   - Programação
 tags:

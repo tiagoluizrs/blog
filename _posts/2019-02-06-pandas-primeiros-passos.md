@@ -1,6 +1,7 @@
 ---
 title: "Seus primeiros passos como Data Scientist: Introdução ao Pandas!"
 excerpt_separator: "<!--more-->"
+date: 2018-11-08 09:00:00
 categories:
   - Programação
 tags:
