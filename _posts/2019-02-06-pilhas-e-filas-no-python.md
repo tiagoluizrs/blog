@@ -41,7 +41,7 @@ No exemplo acima, é preciso que p0, p1, p2, p3, p4, p5 e p6 sejam atendidas par
 
 
 
-```
+```python
    ______              
   |  r0  |       [ r6  r3]
   |  r1  |       [  r5   ]
@@ -57,7 +57,7 @@ O servidor poderia colocar as novas requisições em uma área de espera, e semp
 
 
 
-```
+```python
         ______    
        |  r0  |           
        |  r1  |      saída  -----------------------  entrada
@@ -84,7 +84,7 @@ Uma fila nada mais é do que uma estrutura de armazenamento com políticas de or
 Para inserir elementos, podemos usar o método `append()`, que insere um elemento ao final de uma lista. Para a retirada de elementos, podemos utilizar o método `pop(x)`, que retira e retorna um elemento da posição `x`. Em se tratando de uma fila em que estamos inserindo elementos no final, de qual posição devemos retirar os elementos? Acertou quem pensou “da primeira”. Isso mesmo vamos remover o primeiro elemento utilizando `pop(0)`. Veja:
 
 
-```console
+```python
 >>> fila = [10, 20, 30, 40, 50]
 >>> fila.append(60)  # insere um elemento no final da fila
 >>> print fila
@@ -128,7 +128,7 @@ Tendo a classe acima definida em um arquivo fila.py, poderíamos importar o mód
 
 
 
-```console
+```python
 >>> import fila
 >>> f = fila.Fila()
 >>> f.insere(10)
@@ -157,7 +157,7 @@ Não, nós vimos apenas as filas “comuns”. Voltando ao exemplo da fila do su
 Assim como as filas, aposto que você sabe exatamente como funciona uma pilha. Pense em uma pilha de papéis sobre uma mesa. Se você precisar adicionar um papel a essa pilha, você o adiciona sobre a pilha, ou seja, no topo dela, certo? E quando vai retirar um papel da pilha, você começa pelo que estiver no topo, certo? Ou seja, diferentemente da fila (FIFO), em uma pilha o último a entrar nela, é o primeiro a sair (Last-In, First-Out — LIFO). Veja abaixo uma ilustração de como funciona uma pilha. No primeiro item da ilustração (1), temos uma pilha composta por 5 elementos, que foram inseridos cronologicamente na seguinte ordem: p0, p1, p2, p3, e, por fim, p4. A segunda parte da ilustração (2) mostra o estado da pilha p após ter sido realizada a inserção de um novo elemento (p5). A terceira parte (3) mostra a pilha p após haver a retirada de um elemento. Como você pode ver, o elemento retirado foi o último a ter sido inserido (p5). Na última parte da ilustração (4), é apresentada mais uma retirada de elemento da pilha, desta vez p4. Se houvessem mais operações de retirada, teríamos a retirada, em ordem, dos elementos: p3, p2, p1 e p0.
 
 
-```
+```python
 |          |    |----p5----|    |          |    |          |
 |----p4----|    |----p4----|    |----p4----|    |          |
 |----p3----|    |----p3----|    |----p3----|    |----p3----|
@@ -208,7 +208,7 @@ Outra utilização de pilhas é a verificação do balanceamento de parênteses.
 
 
 
-```
+```python
 (((((((((((((((((()()()()))))))())))()))()))()))((()))))
 ```
 
@@ -216,7 +216,7 @@ Outra utilização de pilhas é a verificação do balanceamento de parênteses.
 Uma forma bem simples de resolver esse problema é ler a sequência de parênteses, um por um e, a cada abre-parênteses que encontrarmos, vamos empilhá-lo. Quando encontrarmos um fecha-parênteses, devemos desempilhar um abre-parênteses, pois encontramos um fecha-parênteses correspondente a ele. Assim, ao final da avaliação da sequência acima, se ela estiver balanceada corretamente, não restarão elementos na pilha. Vejamos um exemplo mais simples:
 
 
-```
+```python
 (())()
 
                 (
@@ -230,7 +230,7 @@ Repare agora em uma sequência desbalanceada:
 
 
 
-```
+```python
 (())(
 
                 (
@@ -281,7 +281,7 @@ print p.desempilha()
 O programa acima, se implementado corretamente, deverá mostrar o seguinte resultado na tela:
 
 
-```
+```python
 40 30 20 10
 ```
 
