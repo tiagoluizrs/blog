@@ -32,10 +32,10 @@ O compilador é um programa do sistema que traduz um programa escrito em alto n�
 
 
 Interpretador Vantagens
-`Correções e alterações são mais rápidas de realizar.
-Código não precisar ser compilado.
-Consomem menos memória.
-Entendida rapidamente.
+* Correções e alterações são mais rápidas de realizar.
+* Código não precisar ser compilado.
+* Consomem menos memória.
+* Entendida rapidamente.
 
 
 
@@ -43,8 +43,8 @@ Entendida rapidamente.
 
 
 
-Qualquer erro no código afeta o sistema todo.
-Necessita sempre ter lido o código original para ser executado.
+* Qualquer erro no código afeta o sistema todo.
+* Necessita sempre ter lido o código original para ser executado.
 
 
 
@@ -73,12 +73,14 @@ Linguagens de programação interpretadas e compiladas
 
 
 
-Mais leve e simples para scripts pequenos e websites.
-Mais dinâmico, pois permite carregar e executar trechos de código facilmente
-Mais fácil para quem está começando, não tem que aprender toda uma arquitetura como no Java para criar projetos simples
-Em geral, sem tanta dor de cabeça para configurar seu sistema
-Mas também`
-Em geral, Python é mais lento que o Java para sua execução, tendo em vista que aplicações interpretadas rodam linha a linha no momento da execução, verificando cada uma delas antes de executar o código, enquanto em linguagens compiladas o compilador analisa o código todo antes de rodar e caso não haja modificação nele a próxima vez que você for executá-lo ele será mais rápido.
+* Mais leve e simples para scripts pequenos e websites.
+* Mais dinâmico, pois permite carregar e executar trechos de código facilmente
+* Mais fácil para quem está começando, não tem que aprender toda uma arquitetura como no Java para criar projetos simples
+* Em geral, sem tanta dor de cabeça para configurar seu sistema
+
+Mas também:
+
+* Em geral, Python é mais lento que o Java para sua execução, tendo em vista que aplicações interpretadas rodam linha a linha no momento da execução, verificando cada uma delas antes de executar o código, enquanto em linguagens compiladas o compilador analisa o código todo antes de rodar e caso não haja modificação nele a próxima vez que você for executá-lo ele será mais rápido.
 
 
 
@@ -86,11 +88,15 @@ Em geral, Python é mais lento que o Java para sua execução, tendo em vista qu
 
 
 
-Facilita encontrar erros mais cedo, já que as variáveis são fortemente tipadas e isso facilita que os compiladores e IDEs mostrem os erros antes da execução.
-Mas também
-`As vezes parece que você precisa ser um especialista em 10 APIs para você criar um “hello world” web.
-Os desenvolvedores Java costumam matar moscas usando bombas nucleares, isto é, muitas vezes um problema que seria simples de resolver com um HTML estático acaba gerando um sistema que precisa de um servidor de aplicação JEE Full Profile e 1 GB de RAM.
-Não tem um lugar bom, barato e rápido para colocar seu sistema. E cada hospedagem vai ter seu jeito diferente.
+* Facilita encontrar erros mais cedo, já que as variáveis são fortemente tipadas e isso facilita que os compiladores e IDEs mostrem os erros antes da execução.
+
+
+Mas também:
+
+
+* As vezes parece que você precisa ser um especialista em 10 APIs para você criar um “hello world” web.
+* Os desenvolvedores Java costumam matar moscas usando bombas nucleares, isto é, muitas vezes um problema que seria simples de resolver com um HTML estático acaba gerando um sistema que precisa de um servidor de aplicação JEE Full Profile e 1 GB de RAM.
+* Não tem um lugar bom, barato e rápido para colocar seu sistema. E cada hospedagem vai ter seu jeito diferente.
 
 
 
