@@ -1,12 +1,12 @@
 ---
-title: "Post: Filas assíncronas com a Classe Queue no Python"
+title: "Filas assíncronas com a Classe Queue no Python"
 excerpt_separator: "<!--more-->"
 categories:
   - Python
 tags:
   - Paralelismo
   - Python
-  - Paralellism
+  - Parallelism
   - Queue
   - Fila
   - Filas
