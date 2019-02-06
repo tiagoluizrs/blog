@@ -1,7 +1,6 @@
 ---
 title: "Filas assíncronas com a Classe Queue no Python"
 excerpt_separator: "<!--more-->"
-date: 2019-01-28 09:00:00
 categories:
   - Programação
 tags:
