@@ -1,6 +1,17 @@
 ---
-layout: post
-title: Filas assíncronas com a Classe Queue no Python
+title: "Post: Filas assíncronas com a Classe Queue no Python"
+excerpt_separator: "<!--more-->"
+categories:
+  - Python
+tags:
+  - Paralelismo
+  - Python
+  - Paralellism
+  - Queue
+  - Fila
+  - Filas
+  - Queues
+  - Threads
 ---
 
 Filas são excelentes para que um script rode de forma eficiente, pois com elas é possível organizar as prioridades do software de forma correta. Uma das vantagens das filas é trabalhar com elas de forma assíncrona. 
