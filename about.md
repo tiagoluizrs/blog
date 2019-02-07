@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: archive
 title: About
+excerpt_separator: "<!--more-->"
 permalink: /about/
 ---
 
