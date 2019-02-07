@@ -5,6 +5,10 @@ excerpt_separator: "<!--more-->"
 permalink: /sobre-o-autor/
 ---
 
+<div class="author__avatar">
+	<img src="/blog/assets/images/bio-photo.jpeg" alt="Tiago Luiz" itemprop="image">
+</div>
+
 Tiago Luiz
 ###### Especialista em Python e JavaScript
 
