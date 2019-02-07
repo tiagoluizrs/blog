@@ -2,7 +2,7 @@
 layout: archive
 title: "Sobre o Autor"
 excerpt_separator: "<!--more-->"
-permalink: /sobre/
+permalink: /sobre-o-autor/
 ---
 
 Tiago Luiz
