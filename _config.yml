@@ -139,6 +139,21 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:tiagoluizribeirodasilva@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://pythondeaaz.com.br"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tiagoluizrs"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tiagoluizrs/"
+    - label: "Stackoverflow"
+      icon: "fab fa-fw fa-stackoverflow"
+      url: "https://stackoverflow.com/users/5551880/tiago-luiz"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/tiagoluizrs"
